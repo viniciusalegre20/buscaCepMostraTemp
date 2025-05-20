@@ -1,0 +1,59 @@
+/* App.css */
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e1e2f;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0 20px;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  max-width: 320px;
+}
+
+.input {
+  flex: 1;
+  padding: 12px 16px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 2px solid #444;
+  background-color: #2c2c44;
+  color: #fff;
+  outline-color: #6c63ff;
+  transition: border-color 0.3s;
+}
+
+.input:focus {
+  border-color: #6c63ff;
+}
+
+.button {
+  padding: 12px 20px;
+  background-color: #6c63ff;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #574dcf;
+}
+
